@@ -1,0 +1,143 @@
+.poem {
+  background-color: #b3001b;
+  color: white;
+  padding: 60px 25px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.poem h3 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.poem p {
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: #b3001b;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: white;
+  color: #b3001b;
+  padding: 50px 20px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.hero h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero .intro {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.main-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #b3001b;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(179, 0, 27, 0.4);
+}
+
+/* MESSAGE SECTION */
+.message {
+  padding: 30px 20px;
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+/* 35 SECTION */
+.thirtyfive {
+  background-color: #b3001b;
+  padding: 50px 10px;
+}
+
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.list-content li {
+  background-color: white;
+  color: #b3001b;
+  border-radius: 50px; /* OVAL SHAPE */
+  padding: 12px 25px;
+  font-size: 1em;
+  list-style: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-content li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* PHOTOS */
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px 0;
+  background-color: white;
+}
+
+.photos img {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 4px solid #b3001b;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* GIFT SECTION */
+.gift {
+  background-color: #fff;
+  color: #b3001b;
+  padding: 40px 20px;
+}
+
+.gift-img {
+  width: 220px;
+  border-radius: 20px;
+  border: 3px solid #b3001b;
+  margin: 20px 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: #b3001b;
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
+}
